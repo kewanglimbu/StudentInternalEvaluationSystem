@@ -13,7 +13,7 @@ namespace StudentInternalEvaluationSystem.Data
         public DbSet<StudentInternalEvaluationSystem.Models.Student> Student { get; set; }
         public DbSet<StudentInternalEvaluationSystem.Models.Teacher> Teacher { get; set; }
         public DbSet<StudentInternalEvaluationSystem.Models.Course> Course { get; set; }
-        public DbSet<StudentInternalEvaluationSystem.Models.Enrollment> Enrollment { get; set; }
+        //public DbSet<StudentInternalEvaluationSystem.Models.Enrollment> Enrollment { get; set; }
         //public DbSet<StudentInternalEvaluationSystem.Models.Department> Department { get; set; }
     }
 }

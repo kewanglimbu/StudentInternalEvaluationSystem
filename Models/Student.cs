@@ -44,7 +44,7 @@ namespace StudentInternalEvaluationSystem.Models
 
         public string Address { get; set; }
 
-        public virtual ICollection<Enrollment> Enrollments { get; set; }
+        //public virtual ICollection<Enrollment> Enrollments { get; set; }
 
         [Display(Name = "Full Name")]
         public string FullName
